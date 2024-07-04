@@ -1,0 +1,8 @@
+.Square{
+    width:40px;
+    height:40px;
+    background-color: #4B495F;
+    color: rgb(255, 0, 0);
+    border:1px solid red;
+    /* border-radius:5px; */
+}

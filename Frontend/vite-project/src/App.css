@@ -1,0 +1,72 @@
+.heading{
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:auto;
+}
+.arena{
+    margin-top: 30px;
+    background-color: rgb(133, 161, 161);
+    display: flex;
+    justify-content: center;
+}
+
+.middlearena{
+    background-color: aquamarine;
+    padding-left: 40px;
+    padding-right:40px;
+    display:grid;
+    gap: 20px;
+}
+
+.top{
+    display:flex;
+    justify-content: center;
+    margin-left:30px;
+    margin-right:30px;
+    background-color: rgb(36, 129, 101);
+    color:white;
+}
+
+.box{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap:0px;  
+}
+
+.below{
+    display:flex;
+    justify-content: center;
+    margin-left:30px;
+    margin-right:30px;
+    background-color: rgb(36, 129, 101);
+    color:white;
+}
+
+.roll{
+    background-color: blue;
+}
+
+.player{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.dice{
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+}
+
+.leftdice img{
+    height:30px;
+    width:30px;
+}
+
+.rightdice img{
+    height:30px;
+    width:30px;
+}
